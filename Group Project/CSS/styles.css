@@ -64,7 +64,9 @@ header {
 
 .background__headfon {
   width: 100%;
-  height: fit-content;
+  height: auto;
+  max-height: 600px;
+  opacity: 0.9;
   /* background-size: cover;
   background-position: center; */
 }
