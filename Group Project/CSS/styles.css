@@ -8,7 +8,8 @@ body {
   /* min-height: 100vh; */
 }
 main {
-  margin: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 li,
@@ -70,6 +71,28 @@ header {
   /* background-size: cover;
   background-position: center; */
 }
+/* .title {
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  justify-content: center;
+  margin: 50px;
+} */
+
+/* carousel */
+
+.carousel-inner > img {
+  width: 100%;
+  height: auto;
+}
+.carousel__div {
+  width: 600px;
+  height: 600px;
+}
+
+.img__carousel {
+  width: 600px;
+  height: 600px;
+}
 
 /* USE THIS FOR ALL BUTTONS */
 button {
@@ -85,6 +108,49 @@ button {
 button:hover {
   background-color: #b91a3a;
   transition: 0.8s ease-in-out;
+}
+
+.section1__info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+.section1__info > div > h2 {
+  font-weight: bolder;
+  font-size: 40px;
+  /* color: #bd7482; */
+  color: #000;
+}
+
+.section2__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+}
+.section2__info > div > h2 {
+  font-weight: bolder;
+  font-size: 40px;
+  /* color: #bd7482; */
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+
+.section2__info > div > img {
+  width: 600px;
+  height: 500px;
+}
+
+.headfons__info {
+  margin-right: 100px;
+}
+.headfons__info > p {
+  color: #b91a3a;
+  margin-top: 30px;
 }
 
 /* FOOTER */
