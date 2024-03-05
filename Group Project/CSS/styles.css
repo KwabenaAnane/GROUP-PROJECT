@@ -6,7 +6,9 @@ body {
   /* min-height: 100vh; */
 }
 main {
-  margin: 50px;
+  margin: 23px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 li,
@@ -69,6 +71,148 @@ button:hover {
   background-color: #b91a3a;
 }
 
+/*---------- from here begins about us and product---------- */
+
+.container-company{
+  width: 1126px;
+  height: 252px;
+  display: flex;
+  margin-top: 41px;
+}
+
+.container-company .company{
+  width: 100%;
+  height: 331px;
+  padding: 30px;
+}
+
+
+.img-logo-1{
+    width: 35%;
+    height: 391px;
+}
+
+.img-logo-1 .img1 {
+  width: 86%;
+  height: 194px;
+  display: block;
+  margin: 18px;
+}
+
+.container-company  p{
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  line-height: 21px;
+  padding: 3px;
+}
+
+
+.container-company .company .title, h2{
+  font-size: 28px;
+  color: #9e4557;
+  font-family: "Roboto", sans-serif;
+
+}
+
+ h2{
+  display: flex;
+  justify-content: center;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 27px;
+}
+
+.section-1 {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.man {
+  width: 800px;
+  height: 500px;
+  margin-left: 45px;
+  margin-top: -66px;
+  margin-right: -50px;
+}
+
+.man-1 {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #9e4557; 
+  border-radius: 10px; 
+  display: block;
+}
+
+/* ----------------------cards----------------- */
+
+.container {
+  background: #fff;
+  padding: 15px 9%;
+  padding-bottom: 200px;
+  height: 600px;
+  margin-bottom: 200px;
+}
+
+.container .heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #bd7482;
+  font-size: 50px;
+  
+}
+
+.container .box-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 50px);
+   grid-gap: 20px;
+}
+
+.container .box-container .box{
+  box-shadow: 0 5px 10px  rgb(33, 116, 138);
+  border-radius: 5px;
+  background: #bd7482;
+  text-align: center;
+  padding:20px;
+  padding-bottom: 66px;
+  height: 450px;
+}
+
+.container .box-container .box img{
+  height: 200px;
+}
+
+.container .box-container .box h3{
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.container .box-container .box p{
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.container .box-container .box .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background: #9e4557;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.container .box-container .box:hover{
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  transform: scale(1.03);
+}
+
+
+
+
 /* FOOTER */
 footer {
   position: fixed;
@@ -115,3 +259,4 @@ footer {
 .footer__bottom p {
   color: white;
 }
+
