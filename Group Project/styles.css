@@ -1,0 +1,136 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  background-color: #e0dede;
+  font-family: "Roboto", sans-serif;
+
+  /* min-height: 100vh; */
+}
+main {
+  margin-right: 50px; 
+  margin-left: 50px;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(213, 211, 211);
+  text-align: none;
+}
+
+header {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #bd7482;
+  width: 100%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  width: 100px;
+  height: 60px;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links > li {
+  display: inline-block;
+  padding: 0 40px;
+}
+.nav__links > li:hover {
+  background-color: #c60e33;
+  transition: 0.8s ease-in-out;
+}
+
+.nav__links > li > a {
+  text-decoration: none;
+}
+
+.nav__links > li > a:hover {
+  color: white;
+}
+
+.background__headfon {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
+/* USE THIS FOR ALL BUTTONS */
+button {
+  padding: 10px 25px;
+  background-color: #c25369;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  margin-left: 40px;
+}
+
+button:hover {
+  background-color: #b91a3a;
+  transition: 0.8s ease-in-out;
+}
+/* FOOTER */
+footer {
+
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__container {
+
+  padding: 20px;
+  background-color: #bd7482;
+}
+.social__icons {
+  display: flex;
+  justify-content: center;
+}
+.social__icons a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.social__icons a i {
+  font-size: 2em;
+
+  /* color: black; */
+  opacity: 0.9;
+  color: white;
+}
+.social__icons a:hover {
+  background-color: #b91a3a;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.footer__bottom {
+  /* background-color: #9e4557; */
+  /* padding: 20px; */
+
+  text-align: center;
+}
+
+.footer__bottom p {
+  color: rgb(190, 187, 187);
+}
+
