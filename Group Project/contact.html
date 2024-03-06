@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Group Project</title>
+    <title>Contact us</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -16,6 +16,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/contactus.css" />
   </head>
   <body>
     <header>
@@ -34,13 +36,35 @@
       </div>
     </header>
   </body>
-  <main>
-    <section>
-        <h1>Contact Page. style here
-        </h1>
-    </section>
-    <section></section>
-  </main>
+
+      <div class="flex-container">
+        <form action="contactus.html">
+        
+            
+   
+            <div class="rectangle1">
+              <p class="headerclass">Contact Us</p>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required="true">
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email.." required="true">
+            
+            <div class="rectangle2">
+            <label for="purpose">Contact Purpose</label>
+            <select id="purpose" name="purpose">
+                <option value="sales">Sales</option>
+                <option value="service">Service</option>
+                <option value="other">Others</option>
+            </select>
+            <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Type Message.."></textarea>
+            <input type="Submit" value="Submit">
+        </div>
+      </div>
+</form>
+    </div>
+    
   
   <footer>
     <div class="footer__container">
