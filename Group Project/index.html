@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Group Project</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -20,7 +27,8 @@
   <body>
     <header>
       <div class="header">
-        <img class="logo" src="Images/logo.jpg" alt="logo" />
+
+         <img class="logo" src="Images/logo.jpg" alt="logo" /> 
 
         <nav>
           <ul class="nav__links">
@@ -30,27 +38,92 @@
           </ul>
         </nav>
 
-        <a href="contact.html"><button type="button">Contact Us</button></a>
+        <!-- <a href="contact.html"><button  type="button">Contact Us</button></a> -->
+        <button type="button"><a href="contact.html"></a> Contact Us</button>
       </div>
     </header>
   </body>
-  <main>
+ 
     <section>
-        <h1>You are welcome to soundz headphone
-            ENJOY!!! main page
-        </h1>
+       <div class="main__container">
+        
+        <img  class="background__headfon" src="Images/Headphones.jpg" alt="picture of white headphones">
+
+       </div>
     </section>
-    <section></section>
+    <main>
+
+    <section class="section1__info">
+     <div class="headfons__info animate__animated animate__flipInX"><h2>Explore our <br>Headphones</h2>
+      <p class=" animate__animated animate__swing">Find amazing and fantastic headphones for travel, school, <br> music, travelling and enjoy some  awesome tunes</p>
+    </div> 
+
+      <div id="slideshow" class="carousel slide  carousel__div" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+          <li data-target="#slideshow" data-slide-to="1"></li>
+          <li data-target="#slideshow" data-slide-to="2"></li>
+          <li data-target="#slideshow" data-slide-to="3"></li>
+          <li data-target="#slideshow" data-slide-to="4"></li>
+        </ul>
+        
+        <!--  Slideshow -->
+        <div class="carousel-inner ">
+          <div class="carousel-item active" data-interval="5000ms"> 
+            <img  src="Images/pink-headfon.jpg" class=" img__carousel" alt="A picture of a pink headphone" >
+          </div>
+          <div class="carousel-item" data-interval="5000ms">
+            <img src="Images/girl-pink-headfon.jpg" class=" img__carousel" alt="A picture of a girl with pink headphone" >
+          </div>
+          <div class="carousel-item" data-interval="5000ms">
+            <img src="Images/brown-headfon.jpg" class=" img__carousel" alt="A picture of a brown headphone" >
+          </div>
+          <div class="carousel-item" data-interval="5000ms">
+            <img src="Images/girl-headfon1.jpg" class=" img__carousel" alt="A picture of a girl wearing headphone" >
+          </div>
+        
+          <div class="carousel-item" data-interval="5000ms">
+            <img src="Images/wine-headfon.jpg" class=" img__carousel" alt="A picture of a wine headphone" >
+          </div>
+        </div>
+        
+        <!-- Controls Prev -Next-->
+        <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slideshow" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <section  class="section2__info">
+      <div>
+        <img src="Images/goldish-headfon.jpg" alt="picture of headphone">
+      </div>
+      <div>
+        <h2 class=" animate__animated animate__slideInRight" >Experience the world of <br>premium headphones</h2>
+        <a href="about.html"><button  type="button">Discover Now</button></a>
+        
+      </div>
+
+    </section>
+
+   
   </main>
   
   <footer>
     <div class="footer__container">
-      <div class="social__icons">
-        <a href=""><i class="fa-brands fa-facebook"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-youtube"></i></a>
-        <a href=""><i class="fa-brands fa-google-plus"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+
+      <div class="social__icons  animate__animated animate__slideInUp">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-plus"></i></a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
+
       </div>
       <div class="footer__bottom">
         <p>Copyright &copy;2024. Designed by Sounds Heaphones Inc.</p>
@@ -58,6 +131,11 @@
     </div>
    
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
     
   </body>
 </html>
